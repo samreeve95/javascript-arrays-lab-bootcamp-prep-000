@@ -21,7 +21,7 @@ destructivelyRemoveFirstKitten()
 
 appendKitten(name)
 {
-  
+  return kittens.concat(name);
 }
 prependKitten(name)
 {
