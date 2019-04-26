@@ -6,38 +6,38 @@ function destructivelyAppendKitten(name)
   kittens.push(name);
 }
 
-destructivelyPrependKitten(name)
+function destructivelyPrependKitten(name)
 {
   kittens.unshift(name);
 }
 
-destructivelyRemoveLastKitten()
+function destructivelyRemoveLastKitten()
 {
   kittens.pop();
 }
 
-destructivelyRemoveFirstKitten()
+function destructivelyRemoveFirstKitten()
 {
   kittens.shift();
 }
 
 
-appendKitten(name)
+function appendKitten(name)
 {
   return kittens.concat(name);
 }
 
-prependKitten(name)
+function prependKitten(name)
 {
   
 }
 
-removeLastKitten()
+function removeLastKitten()
 {
   
 }
 
-removeFirstKitten()
+function removeFirstKitten()
 {
   
 }
