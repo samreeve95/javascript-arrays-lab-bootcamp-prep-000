@@ -34,10 +34,10 @@ function prependKitten(name)
 
 function removeLastKitten()
 {
-  
+  var clone = 
 }
 
 function removeFirstKitten()
 {
-  
+  return kittens.slice(1);
 }
