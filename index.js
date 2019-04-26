@@ -34,7 +34,9 @@ function prependKitten(name)
 
 function removeLastKitten()
 {
-  var clone = 
+  var clone = kittens.slice(0);
+  clone.pop();
+  return clone;
 }
 
 function removeFirstKitten()
